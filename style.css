@@ -1,0 +1,62 @@
+.navbar{
+    display: flex;
+    align-items: centre;
+    background: #1e9bff;
+    padding: 2rem 1.2rem;
+}
+
+.Menu{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.list-items{
+    display: flex;
+    list-style: none;
+}
+
+.nav-item .nav-link{
+    text-decoration: none;
+    color: white;
+    padding: .5rem 1rem;
+    transition: background .5s ease;
+    transition: color .6s ease;
+}
+
+.nav-item .nav-link:hover{
+    background: white;
+    color: #1b9bff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    padding: 1.2rem;
+}
+
+.crunshy{
+    background-color: tomato;
+    color: white;
+    align-self: center;
+    border: none;
+    height: 36px;
+    width: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 8px ;
+}
+
+.Men{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.Rest{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: auto;
+}
